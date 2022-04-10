@@ -1,0 +1,75 @@
+
+/* formulaire de connexion*/
+.card{
+    width: auto;
+    height: auto;
+    align-items: center;
+    padding: 50px;
+    border-radius: 20px;
+    
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+.error-txt {
+    color: #721c24;
+    background: #f8d7da;
+    text-align: center;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #f5c6cb;
+    display: none;
+}
+
+.form_connexion #connexion {
+    margin-top: 13px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400px;
+    background: #2b468b;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.form_connexion .con_details{
+    display: flex;
+    text-align: center;
+    line-height: 35px;
+}
+
+.form_connexion  .con_details input {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.form_connexion .con_details label{
+    width: 100%;
+    height: auto;
+    line-height: 35px;
+    margin: 10px;
+}
+
+.form_connexion .link {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.form_connexion .link a {
+    color: #333;
+}
+
+.form_connexion .link a:hover {
+    text-decoration: underline;
+}
+#connexion{
+    padding: 10px;
+    line-height: 25px;
+    font-weight: bold;
+}
